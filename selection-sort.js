@@ -1,7 +1,18 @@
 
-number_list = [ 2, 4, 3, 6, 5, 1]
-happy = "cat"
-happy_2 = "cat two"
+function selectionSort(nums){
 
-console.log(number_list)
-console.log(happy)
+ for(let i = 0; i < nums.length-1; i++){
+    let minIndex = i;
+
+    for(let j = i; j < nums.length; j++){
+        if(nums[j] < nums[minIndex]) {
+            minIndex = j;
+        }
+    }
+    [nums[i], nums[minIndex]] = [nums[minIndex], nums[i]];
+ }
+ return nums; 
+}
+
+
+console.log(selectionSort([2,4,3,6,5,1]))

@@ -1,4 +1,6 @@
 # javascript-exercises
 
-yup
-trying
+trying;
+
+credit: AlgoJS on YouTube, ChatGPT, and
+coding mentor Yi

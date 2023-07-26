@@ -12,14 +12,15 @@ function selectionSort(nums){
         }
     //if the value at index 'j': (nums[j])
     //is less than value at current: nums[minIndex],
-    //j becomes the minIndex
+    //j becomes the minIndex: minIndex =j
     }
     [nums[i], nums[minIndex]] = [nums[minIndex], nums[i]];
     //array destructuring (left)
     //nums[i] element at current unsorted position (left)
    //nums[minIndex] smallest element in the unsorted part (left)
-   //[nums[minIndex], nums[i]], values of the smallest element and (right)
+   //[nums[minIndex], nums[i]], value of the smallest element and (right)
    //current unsorted element (right)
+   //(left becomes right)
 }
  return nums; 
 }
